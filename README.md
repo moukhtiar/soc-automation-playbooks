@@ -17,7 +17,7 @@ End-to-end SOC response automation in **Microsoft Sentinel**. When someone tries
 
 | Path | Contents |
 |------|----------|
-| `docs/Ticket-8B-Report.docx` | Full report: walkthrough, acceptance criteria, observations, risk register |
+| `docs/Report.pdf` | Full report: walkthrough, acceptance criteria, observations, risk register |
 | `docs/images/` | Redacted screenshots used in the report and this README |
 | `kql/` | Analytics rule query and a verification query |
 | `playbook/` | Playbook design, permissions and automation rule settings |
