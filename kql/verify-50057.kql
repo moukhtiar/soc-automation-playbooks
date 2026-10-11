@@ -1,0 +1,5 @@
+// Quick check that disabled-account sign-ins reach the workspace
+SigninLogs
+| where ResultType == "50057"
+| project TimeGenerated, UserPrincipalName, IPAddress, AppDisplayName, ResultDescription
+| order by TimeGenerated desc

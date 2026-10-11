@@ -1,0 +1,11 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+Ticket-8B-Report.docx
